@@ -18,7 +18,7 @@ html {
            display: flex;
            align-items: center;
            margin:0 auto;
-
+           user-select: none;
         }
         .container {
             padding-left: 130px;
@@ -26,7 +26,7 @@ html {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            
+            width: 100%;
         }
         .nav-group {
             display: flex;
@@ -55,4 +55,5 @@ html {
         .start-button:hover {
             background-color: #198C36;
             opacity: 0.8;
+            transition: 0,3s;
         }
