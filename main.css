@@ -10,6 +10,10 @@ html {
         *, *:before, *:after {
             box-sizing: inherit;
         }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+        }
         .main-header {
            width: 100%;
            max-width: 100%;
@@ -27,6 +31,7 @@ html {
             justify-content: space-between;
             align-items: center;
             width: 100%;
+
         }
         .nav-group {
             display: flex;
@@ -56,4 +61,30 @@ html {
             background-color: #198C36;
             opacity: 0.8;
             transition: 0,3s;
+        }
+        .main-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color:#ffffff;
+            background-color: #163A24;
+            padding: 0 290px;
+        }
+        .main-content .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .main-text {
+            max-width: 500px;
+        }
+        .main-text h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-family: 'Recoleta', serif;
+            line-height: 1.2;
+        }
+        .main-text p {
+            font-size: 18px;
+            line-height: 1.6;
         }
