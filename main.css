@@ -155,39 +155,32 @@ html {
             object-fit: contain;
             margin-right: 98px;
         }
+        
         .partners {
             background-color: #ffffff;
-            padding: 113px 0;
-            text-align: center;
-            flex-direction: column;
-        }
-        .partners .container {
+            padding-top: 100px;
+            padding-bottom: 100px;
             display: flex;
             flex-direction: column;
-            align-items: center;
             gap: 66px;
+            align-items: center;
+            padding-left: 130px;
+            padding-right: 130px;
         }
-        .partners h2 {
+        .partner-text h2 {
             font-size: 48px;
             margin-bottom: 24px;
             font-family: 'Recoleta', serif;
             line-height: 1.2;
             color: #163A24;
         }
-        .partner-logos {
+        .partner-logo {
             display: flex;
-            width: 100%;
-            justify-content: space-between;
             align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding-left: 142px;
+            padding-right: 142px;
         }
-        .logo-item img {
-            height: 35px;
-            width: auto;     
-            display: block;
-        }
-        .container-column {
-            display: flex;
-            text-align: center;
-            gap: 66px;
-        }
+        
         
