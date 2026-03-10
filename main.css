@@ -349,3 +349,7 @@ html {
             line-height: 27px;
             color: #163A24;
         }
+        .fifi::selection {
+            background-color: #8c1919;
+            color: #3b41bd;
+        }
