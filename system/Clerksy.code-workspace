@@ -2,7 +2,18 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../web-desktop"
+		},
+		{
+			"path": "../../Desktop"
+		},
+		{
+			"path": ".."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web-desktop"
+	}
 }
