@@ -245,6 +245,8 @@ html {
             padding-top: 180px;
             padding-bottom: 120px;
             gap: 27px;
+            padding-right: 130px;
+            padding-left: 130px
         }
         .scenes-text {
             padding-left: 98px;
@@ -261,12 +263,13 @@ html {
             margin-bottom: 24px;
             font-family: 'Recoleta', serif;
         }
-        .scenes-image img {
-            width: 492px;
-            height: 423px;
+        .scenes-image {
             object-fit: contain;
             padding-right: 98px;
-            
+            width: 492px;
+            height: 423px;
+
+
         }
         .services {
             display: flex;
