@@ -246,11 +246,9 @@ html {
             padding-bottom: 120px;
             gap: 27px;
             padding-right: 130px;
-            padding-left: 130px
+            padding-left: 130px;
         }
-        .scenes-text {
-            padding-left: 98px;
-        }
+        
         .scenes-text h2 {
             font-size: 48px;
             margin-bottom: 24px;
