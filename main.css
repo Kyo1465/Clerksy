@@ -398,3 +398,43 @@ html {
             opacity: 0.8;
             transition: 0,3s;
         }
+        .download {
+            background-color: #ffffff;
+            color: #163A24;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-left: 130px;
+            padding-right: 130px;
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+        .download-text{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 24px;
+        }
+        .download-text h2 {
+            font-size: 48px;
+            margin-bottom: 24px;
+            font-family: 'Recoleta', serif;
+            line-height: 1.2;
+        }
+        .download-text p {
+            font-size: 18px;
+            line-height: 27px;
+            color: #163A24;
+        }
+        .dl-button {
+            background-color: #198C36;
+            color : #ffffff;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+        }
+        .dl-button:hover {
+            background-color: #198C36;
+            opacity: 0.8;
+            transition: 0,3s;
+        }
