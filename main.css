@@ -354,3 +354,49 @@ html {
             background-color: #8c1919;
             color: #3b41bd;
         }
+        .buisness {
+            background-color: #F2EFE6;
+            color: #163A24;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 130px;
+            padding-right: 130px;
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+        .buisness-text h2 {
+            font-size: 42px;
+            margin-bottom: 24px;
+            font-family: 'Recoleta', serif;
+            line-height: 1.2;
+            color: #163A24;
+            width: 360px;
+            height: 54px;
+            
+        }
+        .buisness-text p {
+            font-size: 18px;
+            margin-bottom: 24px;
+            font-family: 'Recoleta', serif;
+            line-height: 1.2;
+            color: #163A24;
+        }
+        .scheme {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        }
+        .book-button {
+            background-color: #198C36;
+            color : #ffffff;
+            padding: 15px 25px;
+            border-radius: 50px;
+        text-decoration: none;
+        }
+        .book-button:hover {
+            background-color: #198C36;
+            opacity: 0.8;
+            transition: 0,3s;
+        }
