@@ -240,10 +240,13 @@ html {
             background-color: #ffffff;
             color: #163A24;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
+            width: 100%;
             padding-top: 180px;
             padding-bottom: 120px;
+            padding-left: 130px;
+            padding-right: 130px;
             gap: 27px;
         }
         
@@ -331,7 +334,7 @@ html {
             line-height: 1.2;
             color: #163A24;
         }
-        card-list {
+        .card-list {
             font-size: 18px;
             line-height: 27px;
             color: #163A24;
@@ -391,7 +394,7 @@ html {
             color : #ffffff;
             padding: 15px 25px;
             border-radius: 50px;
-        text-decoration: none;
+            text-decoration: none;
         }
         .book-button:hover {
             background-color: #198C36;
@@ -435,6 +438,48 @@ html {
         }
         .dl-button:hover {
             background-color: #198C36;
+            opacity: 0.8;
+            transition: 0,3s;
+        }
+        .get-started {
+            background-color: #163A24;
+            color : #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+        }
+        .get-started-text {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 24px;
+        }
+        .get-started-text h2 {
+            font-size: 48px;
+            margin-bottom: 24px;
+            font-family: 'Recoleta', serif;
+            line-height: 1.2;
+        }
+        .get-started-text p {
+            font-size: 18px;
+            line-height: 27px;
+            color: #ffffff;
+        }
+        .get-started-images {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .get-started-button {
+            background-color: #FAB5A0;
+            color : #163A24;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+        }
+        .get-started-button:hover {
+            background-color: #dbae97;
             opacity: 0.8;
             transition: 0,3s;
         }
