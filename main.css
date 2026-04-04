@@ -483,3 +483,76 @@ html {
             opacity: 0.8;
             transition: 0,3s;
         }
+        .sign-up {
+            background-color: #F2EFE6;
+            color: #163A24;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 130px 60px 130px;
+        }
+        .sign-text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 26px;
+        }
+        .sign-text h2 {
+            font-size: 48px;
+            margin-bottom: 24px;
+            font-family: 'Recoleta', serif;
+            line-height: 1.2;
+        }
+        .sign-text p {
+            font-size: 18px;
+            line-height: 27px;
+            color: #163A24;
+        }
+        .sign-label {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .sign-input {
+            display: flex;
+            background-color: #ffffff;
+            border-radius: 50px;
+            align-items: center;
+            padding: 5px 5px 5px 200px;
+            border: 1px solid #ffffff;
+            transition: 0.3s;
+        }
+        .sign-input:focus-within {
+            border-color: #163A24;
+        }
+        .sign-input input {
+            border: none;
+            outline: none;
+            font-size: 16px;
+            background: transparent;
+            flex-grow: 1;
+        }
+        .sign-button {
+            background-color: #198C36;
+            color : #ffffff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            transition: opasity 0.3s;
+            padding: 15px 25px;
+        }
+        .sign-button:hover {
+            background-color: #198C36;
+            opacity: 0.8;
+            transition: 0,3s;
+        }
+        .text-p {
+            font-size: 14px;
+            line-height: 27px;
+            color: #163A24;
+        }
+        .text-p a {
+            color: #198C36;
+            text-decoration: none;
+        }
